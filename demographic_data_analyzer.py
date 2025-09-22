@@ -1,7 +1,7 @@
 import pandas as pd
 
 def calculate_demographic_data(print_data=True):
-    # read data
+    #read data
     df = pd.read_csv("adult.data.csv")
 
     # 1.how many people of each race are represented?
